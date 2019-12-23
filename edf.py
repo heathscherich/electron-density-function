@@ -46,7 +46,7 @@ def spherical_harmonic(l, m, theta, phi):
 			return .25*sqrt(5/pi)*(3*cos(theta)**2 - 1)
 		if m == 1:
 			return -.5*sqrt(15/(2*pi))*exp(j*phi)*sin(theta)*cos(theta)
-		if m -- 2:
+		if m == 2:
 			return .25*sqrt(15/(2*pi))*exp(2*j*phi)*sin(theta)**2
 
 num_r = 25
